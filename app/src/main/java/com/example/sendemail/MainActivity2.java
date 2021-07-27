@@ -22,8 +22,8 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        final String username="hospitalreferral160@gmail.com";
-        final String password="HRSS2021";
+        final String username="your email";
+        final String password="your password";
         Properties prop=new Properties();
         prop.put("mail.smtp.auth", "true");
         prop.put("mail.smtp.host", "smtp.gmail.com");
