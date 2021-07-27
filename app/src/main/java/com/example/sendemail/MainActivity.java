@@ -63,8 +63,8 @@ Button sendi,send;
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        final  String username="hospitalreferral160@gmail.com";
-                        final String password="HRSS2021";
+                        final  String username="email";
+                        final String password="password";
                         final String messagesend=Txt_messages.getText().toString();
                         Properties properties= new Properties();
                         properties.put("mail.smtp.auth","true");
