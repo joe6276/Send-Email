@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/email"
+       android:layout_marginTop="100dp"
+      android:hint="Email"
+      android:maxLines="1"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/message"
+      android:hint="message"
+       android:layout_marginTop="100dp"
+      android:maxLines="5"
+      />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/send"
+      android:text="Send"
+      android:layout_marginTop="50dp"/>
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/sendi"
+       android:text="Other"
+       android:layout_marginTop="50dp"/>
+</LinearLayout>
