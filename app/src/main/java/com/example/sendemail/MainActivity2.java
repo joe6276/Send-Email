@@ -42,7 +42,7 @@ public class MainActivity2 extends AppCompatActivity {
             String textBody = "This is a Text Message.";
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(username));
-            message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("doctorndambuki1@gmail.com"));
+            message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("recipient mail"));
             message.setSubject("Testing Subject");
             MailcapCommandMap mc = (MailcapCommandMap) CommandMap.getDefaultCommandMap();
             mc.addMailcap("text/html;; x-java-content-handler=com.sun.mail.handlers.text_html");
